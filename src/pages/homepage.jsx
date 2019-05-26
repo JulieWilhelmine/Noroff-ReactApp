@@ -37,7 +37,7 @@ export default class Homepage extends React.Component {
         let characterObj = app.state.rickMortyObj;
 
         let characters = characterObj.filter((character) => {
-            return character.name.indexOf(dearchTerm) !== -1;
+            return character.name.indexOf(searchTerm) !== -1;
         });
 
         app.setState({
