@@ -1,0 +1,20 @@
+// Google fonts
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand|Kreon&display=swap');
+
+$gochi-hand: 'Gochi Hand', cursive;
+$kreon: 'Kreon', serif;
+
+.spesific{
+  border: #99C7A8 3px solid;
+  border-radius: 4px;
+  margin-top: 30px;
+  padding-bottom: 40px;
+  background-color: #B3E8C4;
+  font-family: $kreon;
+  &__info{
+    font-size: 1.4em;
+  }
+  img{
+    border: #99C7A8 3px solid;
+  }
+}

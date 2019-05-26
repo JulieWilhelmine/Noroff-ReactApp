@@ -1,0 +1,27 @@
+
+
+.card{
+  border: #99C7A8 3px solid;
+  border-radius: 4px;
+  padding: 20px;
+  margin-top: 30px;
+  background-color: #B3E8C4;
+  font-family: $kreon;
+  &:hover{
+    box-shadow: 10px 10px 8px 10px #888888;
+  }
+  p{
+    font-size: 1.2em;
+  }
+  img{
+    width: 100%;
+    border: #99C7A8 3px solid;
+  }
+  a{
+    color: #314036;
+  }
+}
+
+
+
+
